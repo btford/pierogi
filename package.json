@@ -1,0 +1,25 @@
+{
+  "name": "pierogi",
+  "version": "0.0.0",
+  "description": "tasty alternative CLI for npm",
+  "main": "index.js",
+  "bin": {
+    "pier": "./bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "discoverability",
+    "tasty",
+    "mmmmm"
+  ],
+  "author": "Brian Ford <btford@umich.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "npm-registry-client": "^1.0.0",
+    "npmconf": "^1.0.1",
+    "request": "^2.36.0"
+  }
+}
