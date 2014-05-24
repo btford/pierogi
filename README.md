@@ -23,6 +23,7 @@ Basically `pier foo` is the same as `npm search foo`.
 ## See also
 
 * [npm](https://www.npmjs.org/)
+* [Gulp's acceptance test](https://github.com/gulpjs/acceptance) is a similar idea scoped to gulp plugins
 
 
 ## License
