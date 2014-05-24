@@ -18,11 +18,12 @@
   "author": "Brian Ford <btford@umich.edu>",
   "license": "MIT",
   "dependencies": {
+    "async": "^0.9.0",
+    "columnify": "^1.1.0",
+    "lodash.identity": "^2.4.1",
     "npm-registry-client": "^1.0.0",
     "npmconf": "^1.0.1",
-    "request": "^2.36.0",
-    "async": "^0.9.0",
-    "lodash.identity": "^2.4.1",
-    "readme-good": "0.0.1"
+    "readme-good": "0.0.1",
+    "request": "^2.36.0"
   }
 }
