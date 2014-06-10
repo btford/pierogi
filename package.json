@@ -24,6 +24,7 @@
     "npm-registry-client": "^1.0.0",
     "npmconf": "^1.0.1",
     "readme-good": "0.0.1",
-    "request": "^2.36.0"
+    "request": "^2.36.0",
+    "package-good": "0.0.0"
   }
 }

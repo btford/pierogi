@@ -17,8 +17,10 @@ search(terms, function (err, packages) {
     return {
       name         : package.name,
       description  : package.description,
-      score        : Math.floor((package.readmeScore.headers +
-                      package.readmeScore.writing) * 50)
+      score        : Math.floor(100 / 3 *
+                      (package.readmeScore.headers +
+                      package.readmeScore.writing +
+                      package.packageScore.maintainers))
     };
   }).
   sort(function (a, b) {
