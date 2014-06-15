@@ -7,7 +7,7 @@
     "pier": "./bin.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node test/*.spec.js"
   },
   "keywords": [
     "cli",
@@ -23,8 +23,10 @@
     "lodash.identity": "^2.4.1",
     "npm-registry-client": "^1.0.0",
     "npmconf": "^1.0.1",
-    "readme-good": "0.0.1",
+    "readme-good": "~0.1.0",
     "request": "^2.36.0",
-    "package-good": "0.0.0"
+    "package-good": "~0.1.0",
+    "jasmine-node": "^1.14.3",
+    "semver": "^2.3.0"
   }
 }
