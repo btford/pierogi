@@ -1,20 +1,21 @@
 # pierogi
 
-Alternative NPM client with a focus on discoverability
+> Alternative npm client with a focus on discoverability
 
 
 ## Install
 
 ```shell
-npm install pierogi
+$ npm install --global pierogi
 ```
+
 
 ## Usage
 
 Right now `pierogi` only does search.
 
 ```shell
-pier some search terms
+$ pier some search terms
 ```
 
 Basically `pier foo` is the same as `npm search foo`.
@@ -28,4 +29,5 @@ Basically `pier foo` is the same as `npm search foo`.
 
 
 ## License
+
 MIT
